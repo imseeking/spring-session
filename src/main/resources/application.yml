@@ -1,0 +1,11 @@
+server:
+  port: 8000
+spring:
+  application:
+    name: spring-session-demo
+  redis:
+    host: 192.168.188.128
+    port: 6379
+  session:
+    store-type: redis
+    timeout: 1800
