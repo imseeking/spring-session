@@ -21,4 +21,9 @@ public class TestController {
         return msg;
     }
 
+
+    public void testBranch(){
+        System.out.println("用来测试分支合并的方法");
+    }
+
 }
